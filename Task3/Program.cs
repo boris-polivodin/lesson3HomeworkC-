@@ -7,8 +7,7 @@
 class Program {
     public static void Main (string[] args) {
       Console.Write("Введите число N: ");
-      int number = 0;
-      number = GetNmber();//int.Parse(Console.ReadLine());
+      int number = GetNmber();//int.Parse(Console.ReadLine());
       for (int i = 1; i <= number; i++)
         {
             Console.Write(i == number ? Math.Pow(i, 3) : Math.Pow(i, 3) + ", ");
